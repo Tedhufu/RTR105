@@ -4,6 +4,8 @@ Studiju kursa Datormācībā (pamatkurss) elektroniskā klade.
 ## Pirmās nodarbības atziņas
 [**DO BE _VERY_ HELPFUL**](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
 
+[**DO BE _VERY_ HELPFUL (termini)**](https://termini.gov.lv/)
+
 **BOLDER**
 
 *ITALY*
