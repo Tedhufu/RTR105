@@ -6,6 +6,8 @@ Studiju kursa Datormācībā (pamatkurss) elektroniskā klade.
 
 [**DO BE _VERY_ HELPFUL (termini)**](https://termini.gov.lv/)
 
+ONLINE LINUX TERMINAL:)
+
 **BOLDER**
 
 *ITALY*
