@@ -1,0 +1,97 @@
+103a104,199
+>   104  man echo
+>   105  man ls
+>   106  pwd
+>   107  man cd
+>   108  man ln
+>   109  man hexdump
+>   110  man cat
+>   111  cp a.txt b.txt
+>   112  echo b.txt
+>   113  cat b.txt
+>   114  lm -a
+>   115  ls -a
+>   116  ls -la
+>   117  ls
+>   118  mv a.txt UWU
+>   119  ls
+>   120  ls UWU
+>   121  man mv
+>   122  mv a.txt c.txt
+>   123  mv b.txt c.txt
+>   124  ls
+>   125  ls -lt -d -- *[!0-9].txt
+>   126  ls -lt -d -- *[0-9].txt
+>   127  mv -lt -d -- *[!0-9].txt
+>   128  rm -lt -d -- *[!0-9].txt
+>   129  rm -lt -v -- *[!0-9].txt
+>   130  rm -v !("history_20230913_Class_02.txt")
+>   131  ls
+>   132  ls UWU
+>   133  ls UWU/a.txt
+>   134  cat a.txt
+>   135  cat UWU/a.txt
+>   136  mv UWU/a.txt UWU/HEHE.exe
+>   137  ls UWU
+>   138  cat UWU/HEHE.exe
+>   139  ls -lt
+>   140  rmdir UWU
+>   141  man rmdir
+>   142  rmdir --ignore-fail-on-non-empty UWU
+>   143  ls
+>   144  rmdir -r UWU
+>   145  rmdir -r UWU/
+>   146  rm -r UWU
+>   147  ls
+>   148  cat history_20230913_Class_02.txt 
+>   149  where is ls
+>   150  whereis ls
+>   151  history
+>   152  echo$path
+>   153  echo $PATH
+>   154  whereisls
+>   155  whereis ls
+>   156  ls -lt
+>   157  ls -lt /bin/ls
+>   158  /bin/ls
+>   159  cat /bin/ls
+>   160  /bin/ls
+>   161  ls -lt /bin/ls
+>   162  nano mana_komanda_1.sh
+>   163  cat mana_komanda
+>   164  cat mana_komanda_1.sh 
+>   165  ls -lt
+>   166  ls -lt /bin/ls
+>   167  nano
+>   168  chmod 754
+>   169  chmod 754 mana_komanda_1.sh
+>   170  ls -lt mana_komanda_1.sh 
+>   171  ls
+>   172  mana
+>   173  ls -lt
+>   174  echo $PATH
+>   175  pwd
+>   176  PATH=$PATH:~
+>   177  echo $path
+>   178  echo $PATH
+>   179  mkdir TEST
+>   180  cp mana_komanda_1.sh TEST/
+>   181  ls
+>   182  ls -lt TEST
+>   183  PATH=$PATH:~/TEST
+>   184  echo $PATH
+>   185  nano TEST/mana_komanda_1.sh
+>   186  ls
+>   187  mana_komanda_1.sh 
+>   188  nano TEST/mana_komanda_1.sh
+>   189  mana_komanda_1.sh 
+>   190  nano TEST/mana_komanda_1.sh
+>   191  cat history_20230913_Class_02.txt 
+>   192  history
+>   193  nano /mana_komanda_1.sh
+>   194  nano mana_komanda_1.sh
+>   195  mana_komanda_1.sh 
+>   196  man history
+>   197  history [103] [200]
+>   198  man history
+>   199  history > history_20230913_Class_03.txt 
