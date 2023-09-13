@@ -1,0 +1,103 @@
+    1  VirtualBox --startvm XP
+    2  quartus
+    3  echo $0
+    4  whoami
+    5  ls -tl
+    6  sh
+    7  echo $0
+    8  pwd
+    9  ls
+   10  ls --all
+   11  ls -a
+   12  ls
+   13  ls -a
+   14  ls -la
+   15  cd.
+   16  pwd
+   17  cd ..
+   18  pwd
+   19  ls -a
+   20  ls -l
+   21  cd user
+   22  pwd
+   23  cd ..
+   24  cd.
+   25  cd .
+   26  cd ..
+   27  pwd
+   28  ls -a
+   29  3
+   30  tree
+   31  ln - a
+   32  ln -a
+   33  ls -a
+   34  ls -la
+   35  cd ..
+   36  pwd
+   37  ls -l
+   38  cd ~
+   39  cd /
+   40  cd ~
+   41  cd /
+   42  cd home/user
+   43  cd /
+   44  cd ~/Dow
+   45  c
+   46  cd ~
+   47  ls -lt
+   48  mkdir ABC
+   49  ls -lt
+   50  ls -l ABC
+   51  ls -la ABC
+   52  rmdir ABC
+   53  ls -lt
+   54  ls
+   55  lllllllllllllllllllllllllllllllllllllllllllllllllllllllll
+   56  echo$?
+   57  echo $?
+   58  mkdir UWU
+   59  ks
+   60  ls
+   61  echo nein
+   62  echo UWU
+   63  echo 12345
+   64  echo 12345 > a.txt
+   65  ls -lt
+   66  read a.txt
+   67  read 1
+   68  echo a.txt
+   69  cat a.txt
+   70  ls -lt *.txt
+   71  echo 123456 > a.txt
+   72  ls -lt *.txt
+   73  echo 1234567 > a.txt
+   74  ls -lt *.txt
+   75  echo 12345678 > a.txt
+   76  ls -lt *.txt
+   77  hexdump
+   78  hexdump -C a.txt
+   79  echo abcdef >> a.txt
+   80  hexdump -C a.txt
+   81  ls -lt *.txt
+   82  echo "dsaaaaa"
+   83  man echo
+   84  echo -e ikkkkkkkkkkkkk\a
+   85  echo -e "ikkkkkkkkkkkk\a"
+   86  echo -e "ikkkkkk/kk/k/kkk\a"
+   87  echo -e "ikkkkkk/kk/k\kkk\a"
+   88  echo -e "ikkkkkk\kkkk\a"
+   89  echo -e "ikkkkkk\n\kkkk\a"
+   90  echo -e "ikkkkkk\nkkkk\a"
+   91  cat a.txt
+   92  hexdump -C a.txt
+   93  echo -e "ikkkkkk\nkkkk\a" >> a.txt
+   94  hexdump -C a.txt
+   95  cat a.txy
+   96  cat a.txt
+   97  touch -t 200109112359 a.txt
+   98  ls -lt *.txt
+   99  history
+  100  history_20230913_Class_02.txt
+  101  >history_20230913_Class_02.txt
+  102  history >history_20230913_Class_02.txt
+  103  history > history_20230913_Class_02.txt
