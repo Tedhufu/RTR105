@@ -1,0 +1,91 @@
+VirtualBox --startvm XP
+quartus
+kys
+git --version
+pwd
+ls -lt
+git clone https://github.com/Tedhufu/RTR105
+ls -lt
+ls -lt rtr105
+ls -lt RTR105/
+pwd
+ls -lt
+git clone https://github.com/Tedhufu/RTR105 RTR105YYY
+ls -lt
+rm -rf RTR105YYY
+ls
+ls lt
+ls -lt
+cd RTR105/
+ls -lt
+ls -lta
+cd .git
+ls -lt
+cat config
+ls -lt
+cat index
+pwd
+ls -lta
+pwd
+ls -lt
+cd RTR105/
+cd ..
+ls -lta
+nano
+cat git-upload
+ls -lt
+chmod 754 git-upload 
+ls -lt
+git-upload
+./git-upload 
+history
+history > history_20230913_Class_04.txt
+./git-upload 
+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
+./git-upload 
+ls -lt
+cd ..
+ls lt
+ls -lt
+rm rf RTR105/
+rm -rf RTR105/
+ls -lt
+history | grep clone
+7  git clone https://github.com/Tedhufu/RTR105
+git clone https://github.com/Tedhufu/RTR105
+ls -lt
+ls -lt RTR105/
+ls -lt
+cd RTR105/
+ls -lt
+nano git-upload 
+./git-upload GAMER 1
+nano git-upload 
+nano history_test.sh
+chmod 754 history_test.sh
+ls -lt
+./history_test.sh
+nano history_test.sh
+nano history_test.sh 
+./history_test.sh 
+nano history_test.sh 
+./history_test.sh 
+nano history_test.sh 
+./history_test.sh 
+nano history_test.sh 
+./history_test.sh 
+ls -lt
+nano history_test.sh 
+rm -rf history_
+ls -lt
+rm -rf history_.txt
+ls -lt
+nano history_test.sh 
+pwd
+echo history_2023-09-20.txt 
+nano history_test.sh 
+history
+./history_test.sh 
+ls -lt
+nano history_test.sh 
+history -a
