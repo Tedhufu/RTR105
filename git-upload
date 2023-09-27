@@ -1,4 +1,5 @@
 #!/bin/bash
+./history_test.sh $1
 git add .
 git config --global user.name Tedhufu
 git config --global user.email valts.leitlands@gmail.com

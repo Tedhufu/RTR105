@@ -1,0 +1,94 @@
+VirtualBox --startvm XP
+quartus
+git clone https://github.com/Tedhufu/RTR105
+qs
+ls
+cd RTR105/
+ls
+ls -lt
+mkdir Class_05
+ls -lt
+cd Class_05/
+nano
+nano first.c
+ls -lt
+cat first.c 
+gcc --version
+gcc first.c 
+nano first.c 
+gcc first.c 
+ls -ln
+cat first.c 
+cat a.out
+history
+./a.out 
+echo $?
+nano first.c 
+ls -lt
+gcc first.c -o first.out
+ls -lt
+./first.out
+exho $?
+echo $?
+./first.out
+echo $?
+nano first.c
+diff a.out first.out
+ls-lt
+ls -lt
+cp first.c second.c
+ls -lt
+nano second.c
+gcc second.c
+nano second.c 
+gcc second.c
+./a.out
+echo $?
+nano second.c 
+gcc second.c
+nano second.c 
+gcc second.c
+./a.out 
+nano second.c
+gcc second.c
+./a.out 
+gcc -E second.c 
+gcc -E second.c > second.i
+ls -lt
+cat second.i
+ls -lt
+gcc second.c -o second_from_c.out
+gcc second.c -i second_from_i.out
+gcc second.i -o second_from_i.out
+ls -lt
+diff second_from_c.out second_from_i.out 
+gcc second.c -S
+ls -lt
+cat second.s
+gcc second.s -o second_from_s.out
+ls -lt
+gcc -c second.c 
+ls -lt
+gcc -Wall -save-temps second.c
+ls -lt
+cd
+pwd
+cd RTR105/
+ls -lt
+ls -lta
+nano .gitignore
+nano history
+ls -lt
+nano history_test.sh 
+nano git-upload 
+./git-upload 05 a
+ls -lt
+cd Class_05/
+ls -lt
+cd
+cd RTR105/
+nano git-upload
+ls -lt
+nano history_test.sh 
+ls -lt
+history -a
