@@ -1,0 +1,75 @@
+VirtualBox --startvm XP
+quartus
+git clone https://github.com/Tedhufu/RTR105
+cd RTR105/
+ls -la
+mkdir Class_08
+ls -la
+cd Class_08
+nano variables.c
+gcc variables.c
+./a.out 
+nano variables.c 
+gcc variables.c
+./a.out 
+nano variables.c 
+gcc variables.c
+./a.out 
+nano variables.c 
+gcc variables.c
+./a.out 
+nano variables.c 
+cp variables.c operations.c
+nano operations.c 
+gcc operations.c 
+nano operations.c 
+gcc operations.c 
+nano operations.c ./a.out
+./out
+./a.out
+mamo operations.c 
+nano operations.c 
+ls -la
+nano operations.c 
+cp operations.c if.c
+nano if.c 
+gcc if.c 
+nano if.c 
+gcc if.c 
+nano if.c 
+gcc if.c 
+nano if.c 
+gcc if.c 
+./out
+./a.out
+cp if.c while.c
+nano while.c 
+gcc while.c 
+nano while.c 
+gcc while.c 
+./a.out
+nano while.c 
+gcc while.c 
+nano while.c 
+gcc while.c 
+./a.out
+nano while.c 
+gcc while.c 
+./a.out
+nano while.c 
+gcc while.c 
+./a.out
+nano while.c 
+gcc while.c 
+./a.out
+nano while.c 
+cp while.c for.c
+nano for.c
+gcc for.c 
+nano for.c
+gcc for.c 
+./a.out./a.out
+./a.out
+ls -la
+cd ..
+history -a
