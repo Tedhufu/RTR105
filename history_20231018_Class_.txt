@@ -1,0 +1,59 @@
+VirtualBox --startvm XP
+quartus
+git clone https://github.com/Tedhufu/RTR105
+ls -la
+ls
+cd RTR105/
+ls
+mk dir Class_09
+mkdir Class_09
+ls
+cd Class_09
+nano while_char.c
+gcc while_char.c
+./a.out 
+nano while_char.c
+gcc while_char.c
+./a.out 
+nano while_char.c
+gcc while_char.c
+./a.out 
+nano while_char.c
+cp while_char.c while_rand.c 
+nano while_rand.c 
+gcc while_rand.c 
+./a.out 
+nano while_rand.c 
+gcc while_rand.c 
+./a.out 
+nano while_rand.c 
+gcc while_rand.c 
+./a.out 
+nano while_rand.c 
+gcc while_rand.c 
+./a.out 
+nano while_rand.c 
+gcc while_rand.c 
+./a.out 
+nano while_rand.c 
+gcc while_rand.c 
+nano while_rand.c 
+gcc while_rand.c 
+./a.out 
+cp while_rand.c functionV1.c
+nano functionV1.c 
+gcc functionV1.c 
+nano functionV1.c 
+gcc functionV1.c 
+nano functionV1.c 
+gcc functionV1.c 
+nano functionV1.c 
+gcc functionV1.c 
+./a.out 
+nano functionV1.c 
+gcc functionV1.c 
+./a.out 
+cd ..
+ls la
+ls
+history -a
