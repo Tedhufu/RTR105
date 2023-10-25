@@ -1,0 +1,102 @@
+VirtualBox --startvm XP
+quartus
+git clone https://github.com/Tedhufu/RTR105
+cd RTR105/
+mkdir Class_11_12
+cd Class_11_12/
+ls -la
+nano foo.h
+nano foo.c
+nano main.c
+gcc -Wall -c foo.c
+nano foo.c
+nano foo.h
+gcc -Wall -c foo.c
+gcc -Wall -c main.c
+gcc -o testprogram foo.o main.o
+ls -la
+./testprogram 
+nano main.c
+nano foo.c
+nano main.c
+gcc -Wall -c foo.c
+nano foo.c
+gcc -Wall -c foo.c
+nano foo.c
+gcc -Wall -c foo.c
+gcc -Wall -c main.c
+nano main.c
+gcc -Wall -c main.c
+nano main.c
+nano foo.c
+nano main.c
+gcc -Wall -c main.c
+nano main.c
+gcc -Wall -c main.c
+gcc -o testprogram foo.o main.o
+/
+./testprogram 
+nano main.c
+gcc -Wall -c foo.c
+nano foo.c
+gcc -Wall -c foo.c
+gcc -o testprogram foo.o main.o
+./testprogram 
+nano main.c
+gcc -Wall -c main.c
+gcc -o testprogram foo.o main.o
+nano main.c
+gcc -Wall -c main.c
+gcc -o testprogram foo.o main.o
+./testprogram 
+nano main.c
+gcc -Wall -c main.c
+gcc -o testprogram foo.o main.o
+./testprogram 
+nano main.c
+nano arrays.c
+nano main.c
+nano arrays.c
+nano main.c
+gcc arrays.c 
+-ls la
+ls -la
+./a.out 
+nano main.c
+nano arrays.c
+nano string.c
+gcc string.c 
+nano string.c
+gcc string.c 
+nano string.c
+gcc string.c 
+./a.out 
+nano string.c
+gcc string.c 
+nano string.c
+gcc string.c 
+nano string.c
+gcc string.c 
+./a.out 
+nano string.c
+ls -la
+nano string_FIX.c
+nano uzdevums_string_V1.c
+gcc uzdevums_string_V1.c
+nano uzdevums_string_V1.c
+gcc uzdevums_string_V1.c
+./a.out 
+nano uzdevums_string_V1.c
+gcc uzdevums_string_V1.c
+./a.out 
+nano uzdevums_string_V1.c
+gcc uzdevums_string_V1.c
+nano uzdevums_string_V1.c
+gcc uzdevums_string_V1.c
+nano uzdevums_string_V1.c
+gcc uzdevums_string_V1.c
+nano uzdevums_string_V1.c
+ls -la
+cd ..
+ls -la
+history -a
