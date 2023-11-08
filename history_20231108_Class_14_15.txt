@@ -1,0 +1,84 @@
+VirtualBox --startvm XP
+quartus
+git clone https://github.com/Tedhufu/RTR105
+ls -la
+ls
+cd RTR105/
+ls
+mkdir Class_14_15
+cd Class_14_15/
+gnuplot --version
+gnuplot
+nano gnuplot_example_1.gp
+chmod 744 gnuplot_example_1.gp 
+./gnuplot_example_1.gp 
+nano gnuplot_example_1.gp 
+chmod 744 gnuplot_example_1.gp 
+./gnuplot_example_1.gp 
+ls
+nano gnuplot_example_1.gp 
+chmod 744 gnuplot_example_1.gp 
+./gnuplot_example_1.gp 
+nano gnuplot_example_1.gp 
+chmod 744 gnuplot_example_1.gp 
+./gnuplot_example_1.gp 
+whereis gnuplot
+nano gnuplot_example_1.gp 
+chmod 744 gnuplot_example_1.gp 
+./gnuplot_example_1.gp 
+nano gnuplot_example_2.gp 
+chmod 744 gnuplot_example_2.gp 
+./gnuplot_example_2.gp 
+nano gnuplot_example_2.gp 
+chmod 744 gnuplot_example_2.gp 
+nano gnuplot_example_2.gp 
+./gnuplot_example_2.gp 
+nano gnuplot_example_2.gp 
+chmod 744 gnuplot_example_2.gp 
+./gnuplot_example_2.gp 
+chmod 744 gnuplot_example_2.gp 
+./gnuplot_example_2.gp 
+nano gnuplot_example_2.gp 
+chmod 744 gnuplot_example_2.gp 
+./gnuplot_example_2.gp 
+nano gnuplot_example_3.gp 
+chmod 744 gnuplot_example_3.gp 
+./gnuplot_example_2.gp 
+./gnuplot_example_3.gp 
+nano gnuplot_example_2.gp 
+./gnuplot_example_3.gp 
+nano gnuplot_example_2.gp 
+chmod 744 gnuplot_example_2.gp 
+./gnuplot_example_2.gp 
+nano gnuplot_example_2.gp 
+chmod 744 gnuplot_example_2.gp 
+./gnuplot_example_2.gp 
+nano gnuplot_example_2.gp 
+chmod 744 gnuplot_example_2.gp 
+./gnuplot_example_2.gp 
+nano gnuplot_example_2.gp 
+chmod 744 gnuplot_example_2.gp 
+./gnuplot_example_2.gp 
+chmod 744 gnuplot_example_2.gp 
+nano gnuplot_example_2.gp 
+chmod 744 gnuplot_example_2.gp 
+./gnuplot_example_2.gp 
+nano gnuplot_example_2.gp 
+nano taylor_swift.c
+gcc taylor_swift.c
+nano taylor_swift.c
+gcc taylor_swift.c
+nano taylor_swift.c
+gcc taylor_swift.c
+nano taylor_swift.c
+gcc taylor_swift.c
+nano taylor_swift.c
+ls
+gcc taylor_swift.c 
+nano taylor_swift.c
+cd ..
+ls
+./history_test.sh 14_15
+history
+-history
+history -a
