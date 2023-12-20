@@ -19,7 +19,7 @@ int main()
         else if(num <= 1) {printf("Skaitla %lld faktorials ir vienads ar 1", num);}
         else 
         {
-            while (cel <= num) {fac *= cel; cel++;}
+            for (cel = num; cel >= 2; cel--) {fac *= cel;}
         
             if(tips == 'c' && fac > 255 || tips == 'i' && fac > 2147483647 || tips == 'l' && fac > 9223372036854775807)
             {
