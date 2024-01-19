@@ -1,7 +1,7 @@
 #include<stdio.h>
 #include<math.h>
 float modified_j1(float x, float A){
-    return sin(x)-A;
+    return j1(2*x)-A;
 }
 
 void main(){
@@ -49,6 +49,3 @@ int notmain()
     printf("Sakne atrodas pie x=%.3f, jo sin(x) ir %.3f\n",x,modified_j1(x,A));
     return 0;
 }
-
-
-
