@@ -23,7 +23,7 @@ int main() {
     while (x < b) {
         y = j1(2 * x);
         yy = j1(2 * (x + delta_x));
-        ysk = (j0(2 * x) - _j2(2 * x));
+        ysk = (j0(2 * x) - _j2(2 * x)); //japartaisa
         yan = (yy-y)/delta_x;
         ysk2 = (j_minus_1(2 * x) - j1(2 * x)) - (j1(2 * x)-j3(2 * x));
         yan2 = (yy - 2 * y + j1(2 * (x - delta_x))) / pow(delta_x,2);
