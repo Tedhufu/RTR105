@@ -1,7 +1,8 @@
 #include <stdio.h>
 #include <math.h>
 
-int main() {
+int main() 
+{
     float a, b, x, delta_x;
     double y, yy, yan, ysk, yan2, ysk2;
 
@@ -9,18 +10,19 @@ int main() {
 
     deriv = fopen("derivative.dat", "w");
 
-    printf("Lietotāj, lūdzu, izvēlieties funkcijas sākuma robežas vērtību a:\n");
+    printf("Lūdzu, izvēlieties funkcijas sākuma robežas vērtību a:\n");
     scanf("%f", &a);
-    printf("Lietotāj, lūdzu, izvēlieties funkcijas beigu robežas vērtību b:\n");
+    printf("Lūdzu, izvēlieties funkcijas beigu robežas vērtību b:\n");
     scanf("%f", &b);
-    printf("Lietotāj, lūdzu, izvēlieties funkcijas precizitātes vērtību dx:\n");
+    printf("Lūdzu, izvēlieties funkcijas precizitātes vērtību dx:\n");
     scanf("%f", &delta_x);
 
     fprintf(deriv, "\tx\t\tj1(2x)\tj1\'(2x) analyt.\tj1\'(2x) finite\tj1\'\'(2x) analyt.\tj1\'\'(2x) finite\n");
     printf("\tx\t\tj1(2x)\tj1\'(2x) analyt.\tj1\'(2x) finite\tj1\'\'(2x) analyt.\tj1\'\'(2x) finite\n");
 
     x = a;
-    while (x < b) {
+    while (x < b) 
+    {
         y = j1(2 * x);
         yy = j1(2 * (x + delta_x));
         ysk = (j0(2 * x) - _j2(2 * x)); //japartaisa
