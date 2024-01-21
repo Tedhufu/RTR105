@@ -1,9 +1,11 @@
-# :bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat:
+# :bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat:
 # Labaratorijas darbs Teilora rindas
 ### Autors: Valts Leitlands
 Šajā un turpmākajos 3 darbos tiks izmantota Beseļa funkcija J<sub>1</sub>(2x).
 
 Pirmajā labaratorijas darbā bija vajadzīgs noteikt savas funkcijas n-tā un (n-1)-tā locekļa vērtību, pielietojot rekurences reizinātāju, kā arī izvadot standarta funkcijas aprēķina iznākumu. 
+
+:bangbang: Diemžēl nav iespējams šim darbam pievienot history, jo es pielietoju Visual Studio Code un [Online C Code compiler](https://www.programiz.com/c-programming/online-compiler/)  
 ```#include <stdio.h>
 #include <math.h>
 
@@ -59,3 +61,4 @@ printf("rekurences reizinātājs:     ___________ \n");
 printf("                                1! \n");
 return 0;
  }```
+:shipit:
