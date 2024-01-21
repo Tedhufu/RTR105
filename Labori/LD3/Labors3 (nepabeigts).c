@@ -4,7 +4,7 @@
 int main() 
 {
     float a, b, x, delta_x;
-    double y, yy, yan, ysk, yan2, ysk2;
+    double y, yy, ys, ya, ys2, ya2;
 
     FILE* deriv;
 
@@ -25,13 +25,13 @@ int main()
     {
         y = j1(2 * x);
         yy = j1(2 * (x + delta_x));
-        ysk = (j0(2 * x) - _j2(2 * x)); //japartaisa
-        yan = (yy-y)/delta_x;
-        ysk2 = (j_minus_1(2 * x) - j1(2 * x)) - (j1(2 * x)-j3(2 * x));
-        yan2 = (yy - 2 * y + j1(2 * (x - delta_x))) / pow(delta_x,2);
+        ya = (j0(2 * x) - _j2(2 * x)); //japartaisa
+        ys = (yy-y)/delta_x;
+        ya2 = (j_minus_1(2 * x) - j1(2 * x)) - (j1(2 * x)-j3(2 * x));
+        ys2 = (yy - 2 * y + j1(2 * (x - delta_x))) / pow(delta_x,2);
 
-        printf("%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\n", x, y, yan, ysk, yan2, ysk2);
-        fprintf(deriv, "%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\n", x, y, yan, ysk, yan2, ysk2);
+        printf("%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\n", x, y, ya, ys, ya2, ys2);
+        fprintf(deriv, "%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\n", x, y, ya, ys, ya2, ys2);
         x += delta_x;
     }
 

@@ -25,7 +25,7 @@ int main()
 
 float taisnsturis(float)
 {
-    integer2=(b-a)*(j1(a*2)+j1(b*2))/n;
+    integer2=(b-a)*(j1(a*2)+j1(b*2)/2);
     while(fabs(integer2-integer1)>eps)
     {
         n*=2;
@@ -43,7 +43,7 @@ float taisnsturis(float)
 
 float trapeces(float)
 {
-    integer2=(b-a)/2*(j1(a*2)+j1(b*2))/n;
+    integer2=(b-a)/2*(j1(a*2)+j1(b*2));
     while(fabs(integer2-integer1)>eps)
     {
         n*=2;
@@ -62,7 +62,7 @@ float trapeces(float)
 float simpsons(float)
 {
     h = (b-a)/2;
-    integer2=(b-a)/3*(j1(a*2) + 4*j1(0.5*(a+b)) +j1(b*2))/n;
+    integer2=(b-a)/6*(j1(a*2) + 4*j1(0.5*(a+b)) +j1(b*2));
     while(fabs(integer2-integer1)>eps)
     {
         n*=2;
