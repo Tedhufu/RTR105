@@ -7,7 +7,8 @@ int main()
     char teksts[256];
     char pag;
     double med;
-    int garums, minA = 256, maxA = 0, kopaA = 0, Avertiba;
+    int garums, minA = 256, maxA = 0, kopaA = 0, Avertiba, frek[256] = {0}, moduS = 0, moda;
+
 
     printf("Ievadiet burtus un ciparus (līdz 255 burtiem/cipariem):\n");
     scanf("%[^\n]", teksts);
@@ -35,6 +36,17 @@ int main()
             if (Avertiba < minA) minA = Avertiba;
             if (Avertiba > maxA) maxA = Avertiba;
             kopaA += Avertiba;
+            frek[Avertiba]++;
+        }
+    }
+
+    
+    for (int i = 0; i < 256; i++) 
+    {
+        if (frek[i] > moduS) 
+        {
+            moduS = frek[i];
+            moda = i;
         }
     }
 
@@ -45,13 +57,15 @@ int main()
     if (garums %2 == 0)
     {
         med = (teksts[garums / 2 - 1] + teksts[garums / 2])/2;
-        printf("ASCII mediana: %lf \n", med);
+        printf("ASCII mediana: %.2lf \n", med);
     }
     else
     {
         med = (teksts[garums / 2]);
-        printf("ASCII mediana: %lf \n", med);
+        printf("ASCII mediana: %.2lf \n", med);
     }
+
+    printf("ASCII moda: %d (%c)\n", moda, moda);
 
     printf("\nSakārtotas vertibas:\n");
     for (int i = 0; i < garums; i++) {
