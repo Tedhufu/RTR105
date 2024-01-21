@@ -13,6 +13,9 @@ Formulas kas tika pielietotas:
 
 (b-a)/6*(j1(a*2) + 4*j1(0.5*(a+b)) +j1(b*2)) - Simpsons
 
+![image](https://github.com/Tedhufu/RTR105/assets/144206387/d17a8f1d-6e1b-42f7-92c2-3e5313521401)
+
+
 ```#include <stdio.h>
 #include <math.h>
 
