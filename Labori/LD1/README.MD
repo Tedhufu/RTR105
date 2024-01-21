@@ -60,6 +60,6 @@ printf("                             -1 * x \n");
 printf("rekurences reizinātājs:     ___________ \n");
 printf("                                1! \n");
 return 0;
- }```
-
+ }
+```
 :shipit:
