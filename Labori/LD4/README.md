@@ -6,8 +6,11 @@ J<sub>1</sub>(2x).
 Ceturtajā darbā tika izveidota programma, kura izrēķina funkcijas laukumu izmantojot integrāli.
 Aprēķiniem tiek pielietotas 3 metodes: Taisnstūra, Trapeces un Simpsona.
 Formulas kas tika pielietotas:
+
 (b-a)*(j1(a*2)+j1(b*2)/2) - Taisnstūris
+
 (b-a)/2*(j1(a*2)+j1(b*2)) - Trapece
+
 (b-a)/6*(j1(a*2) + 4*j1(0.5*(a+b)) +j1(b*2)) - Simpsons
 
 ```#include <stdio.h>
