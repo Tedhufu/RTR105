@@ -1,5 +1,5 @@
 # :bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat:
-# Labaratorijas darbs Teilora rindas
+# Labaratorijas darbs Dihotomijas metode
 ### Autors: Valts Leitlands
 J<sub>1</sub>(2x).
 
