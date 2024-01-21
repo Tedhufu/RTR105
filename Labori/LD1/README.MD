@@ -1,4 +1,4 @@
-# :bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat:
+# :bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat::bat:
 # Labaratorijas darbs Teilora rindas
 ### Autors: Valts Leitlands
 Šajā un turpmākajos 3 darbos tiks izmantota Beseļa funkcija J<sub>1</sub>(2x).
