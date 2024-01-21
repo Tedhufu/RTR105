@@ -3,7 +3,7 @@
 ### Autors: Valts Leitlands
 J<sub>1</sub>(2x).
 
-Otrajā labaratorijas darbā, ir izveidota programma, kas izmantojot Dihatanomijas metodi nosaka krustpunkta x koordināti noteiktā intervālā un ar noteiktu precizitāti, kurai lietotājs var izvēlēties tos.
+Otrajā labaratorijas darbā, ir izveidota programma, kas izmantojot Dihotomijas metodi nosaka krustpunkta x koordināti noteiktā intervālā un ar noteiktu precizitāti, kurai lietotājs var izvēlēties tos.
 ```#include <stdio.h>
 #include <math.h>
 
