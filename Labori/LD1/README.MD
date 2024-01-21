@@ -1,5 +1,5 @@
-#Labaratorijas darbs Teilora rindas
-###Autors: Valts Leitlands
+# Labaratorijas darbs Teilora rindas
+### Autors: Valts Leitlands
 Šajā un turpmākajos 3 darbos tiks izmantota Beseļa funkcija J<sup>1</sup>(2x).
 
 Pirmajā labaratorijas darbā bija vajadzīgs noteikt savas funkcijas n-tā un (n-1)-tā locekļa vērtību, pielietojot rekurences reizinātāju, kā arī izvadot standarta funkcijas aprēķina iznākumu. 
