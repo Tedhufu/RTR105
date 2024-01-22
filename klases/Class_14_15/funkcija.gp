@@ -17,9 +17,9 @@ NO_ANIMATION = 1
 set xzeroaxis linestyle 0
 show xzeroaxis
 set style line 1.92 lc rgb 'black' pt 7
-set style line 0 lc rgb 'black' pt 7
+set style line 1 lc rgb 'black' pt 7
 
-plot [-5:5] besj1(2*x),'-' w p ls 1.92,'-' w p ls 0
+plot [-5:5] besj1(2*x),'-' w p ls 1.92,'-' w p ls 1
 1.92 0
 e
 0 0
