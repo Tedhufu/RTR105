@@ -4,6 +4,9 @@
 J<sub>1</sub>(2x).
 
 Otrajā labaratorijas darbā, ir izveidota programma, kas izmantojot Dihotomijas metodi nosaka krustpunkta x koordināti noteiktā intervālā un ar noteiktu precizitāti, kurai lietotājs var izvēlēties tos.
+
+[Gnuplot bilde](https://github.com/Tedhufu/RTR105/blob/main/Labori/LD2/Krustpunkti.png)
+
 ```#include <stdio.h>
 #include <math.h>
 
