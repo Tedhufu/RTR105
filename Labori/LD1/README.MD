@@ -6,6 +6,9 @@
 Pirmajā labaratorijas darbā bija vajadzīgs noteikt savas funkcijas n-tā un (n-1)-tā locekļa vērtību, pielietojot rekurences reizinātāju, kā arī izvadot standarta funkcijas aprēķina iznākumu. 
 
 :bangbang: Diemžēl nav iespējams šim darbam pievienot history, jo es pielietoju Visual Studio Code un [Online C Code compiler](https://www.programiz.com/c-programming/online-compiler/)  
+
+[Funkcijas grafiks](https://github.com/Tedhufu/RTR105/blob/main/Labori/LD1/j1(2x).png)
+
 ```#include <stdio.h>
 #include <math.h>
 
