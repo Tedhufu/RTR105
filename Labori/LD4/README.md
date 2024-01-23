@@ -15,6 +15,8 @@ Formulas kas tika pielietotas:
 
 ![image](https://github.com/Tedhufu/RTR105/assets/144206387/d17a8f1d-6e1b-42f7-92c2-3e5313521401)
 
+[Gnuplot bilde](https://github.com/Tedhufu/RTR105/blob/main/Labori/LD4/Iepildits.png)
+
 
 ```#include <stdio.h>
 #include <math.h>
