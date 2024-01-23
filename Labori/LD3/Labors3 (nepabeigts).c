@@ -8,7 +8,7 @@ int main()
 
     FILE* deriv;
 
-    deriv = fopen("derivative.dat", "w");
+    deriv = fopen("deriv.dat", "w");
 
     printf("Lūdzu, izvēlieties funkcijas sākuma robežas vērtību a:\n");
     scanf("%f", &a);
@@ -25,9 +25,9 @@ int main()
     {
         y = j1(2 * x);
         yy = j1(2 * (x + delta_x));
-        ya = (j0(2 * x) - _j2(2 * x)); //japartaisa
+        ya = j0(2 * x) - jn(2,2 * x);
         ys = (yy-y)/delta_x;
-        ya2 = (j_minus_1(2 * x) - j1(2 * x)) - (j1(2 * x)-j3(2 * x));
+        ya2 = (2*(1-2*x*x)*j1(2*x)-2*x*j0(2*x))/(x*x);
         ys2 = (yy - 2 * y + j1(2 * (x - delta_x))) / pow(delta_x,2);
 
         printf("%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\n", x, y, ya, ys, ya2, ys2);
@@ -37,3 +37,4 @@ int main()
 
     fclose(deriv);
 }
+    
