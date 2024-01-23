@@ -4,6 +4,12 @@
 
 Šī programma rēķina un izvada atsevišķā failā vairāku punktu atvasinājumus. Tā izmanto divus veidus kā iegūt rezultātu: Skaitlisko un Analītisko. Tā pat kā pagājušajā darbā sākuma nosacījumus ievada lietotājs.
 
+![image](https://github.com/Tedhufu/RTR105/assets/144206387/55ea0fbf-00ee-444f-baa1-e970b51401da)
+
+![image](https://github.com/Tedhufu/RTR105/assets/144206387/b7b4439b-44e9-4be3-9e4c-61802db217fd)
+
+
+
 [Link uz bildi](https://github.com/Tedhufu/RTR105/blob/main/Labori/LD3/deriv.png)
 
 ```
