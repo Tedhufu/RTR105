@@ -16,10 +16,20 @@ set colorbox vertical origin screen 0.9, 0.2 size screen 0.05, 0.6 front  noinve
 NO_ANIMATION = 1
 set xzeroaxis linestyle 0
 show xzeroaxis
-set style line 1.92 lc rgb 'black' pt 7
 set style line 1 lc rgb 'black' pt 7
+set style line 2 lc rgb 'black' pt 7
+set style line 3 lc rgb 'black' pt 7
+set style line 4 lc rgb 'black' pt 7
+set style line 5 lc rgb 'black' pt 7
 
-plot [-5:5] besj1(2*x),'-' w p ls 1.92,'-' w p ls 1
-1.92 0
+
+plot [-5:5] besj1(2*x),'-' w p ls 1,'-' w p ls 2,'-' w p ls 3,'-' w p ls 4,'-' w p ls 5
+1.91 0
 e
 0 0
+e
+-1.91 0
+e
+3.5 0
+e
+-3.5 0
