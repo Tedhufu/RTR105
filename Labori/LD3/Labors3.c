@@ -18,7 +18,7 @@ int main()
     scanf("%f", &delta_x);
 
     fprintf(deriv, "\tx\t\tj1(2x)\tj1\'(2x) analyt.\tj1\'(2x) finite\tj1\'\'(2x) analyt.\tj1\'\'(2x) finite\n");
-    printf("\tx\t\tj1(2x)\tj1\'(2x) analyt.\tj1\'(2x) finite\tj1\'\'(2x) analyt.\tj1\'\'(2x) finite\n");
+    //printf("\tx\t\tj1(2x)\tj1\'(2x) analyt.\tj1\'(2x) finite\tj1\'\'(2x) analyt.\tj1\'\'(2x) finite\n");
 
     x = a;
     while (x < b) 
@@ -30,7 +30,7 @@ int main()
         ya2 = (2*(1-2*x*x)*j1(2*x)-2*x*j0(2*x))/(x*x);
         ys2 = (yy - 2 * y + j1(2 * (x - delta_x))) / pow(delta_x,2);
 
-        printf("%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\n", x, y, ya, ys, ya2, ys2);
+        //printf("%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\n", x, y, ya, ys, ya2, ys2);
         fprintf(deriv, "%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\t%10.2f\n", x, y, ya, ys, ya2, ys2);
         x += delta_x;
     }
